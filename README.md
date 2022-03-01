@@ -382,7 +382,8 @@ group :development do
 end
 
 
-gem "active_model_serializers", "~> 0.10.13"```
+gem "active_model_serializers", "~> 0.10.13"
+```
 
 > **Note for Rails 7**: There is currently an [open issue][ams issue] with the
 > `active_model_serializers` gem that means it won't work with Rails 7. If you
