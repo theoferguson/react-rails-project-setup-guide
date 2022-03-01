@@ -417,7 +417,7 @@ support back in, update your application's configuration in the
 # config/application.rb
 module ExampleProject
   class Application < Rails::Application
-    config.load_defaults 6.1
+    config.load_defaults 7.0
 
     # This is set in apps generated with the --api flag, and removes session/cookie middleware
     config.api_only = true
